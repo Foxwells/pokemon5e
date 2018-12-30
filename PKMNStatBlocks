@@ -1,0 +1,71 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "pkmn5e",
+				"abbreviation": "pkmn5e",
+				"full": "Pokemon 5th Edition",
+				"authors": [
+					"Foxwells"
+				],
+				"version": "1.0",
+				"url": "https://drive.google.com/file/d/1p6MC7_8q04e0yto00f7pfabS0etnFa4P/view",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1546162910
+	},
+  
+  
+	"monster": [
+		{
+			"name": "Bulbasaur",
+			"size": "S",
+			"type": {
+				"type": "Grass-/Poison-type"
+			},
+			"source": "pkmn5e",
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 6,
+				"formula": "d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 11,
+			"int": 6,
+			"wis": 10,
+			"cha": 10,
+			"save": {
+				"str": "+4"
+			},
+			"skill": {
+				"athletics": "+4",
+				"nature": "+2"
+			},
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Ability: Chlorophyll",
+					"entries": [
+						"Damage rolls for this Pokémon get an additional +2 during strong sunlight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Tackle (1 action)",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 2}) Normal-type damage. Make a melee attack roll against a Pokémon, doing 1d6 + Strength on a hit. Higher Levels: The base damage increases to 1d8 at level 5, 1d10 at level 10, and 1d12 at level 17."
+					]
+				}
+			],
+			"page": 49
+		}
+  ]
+}
