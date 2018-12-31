@@ -1,6 +1,24 @@
 {
+	"_meta": {
+		"sources": [
+			{
+				"json": "pkmn5e",
+				"abbreviation": "pkmn5e",
+				"full": "Pokemon 5th Edition",
+				"authors": [
+					"Foxwells"
+				],
+				"version": "1.0",
+				"url": "https://drive.google.com/file/d/1p6MC7_8q04e0yto00f7pfabS0etnFa4P/view",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1546162910
+	},
+
 	"monster": [
 		{
+			"source": "pkmn5e",
 			"name": "Bulbasaur",
 			"size": "S",
 			"type": "Grass-/Poison-type",
