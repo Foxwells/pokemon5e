@@ -39,29 +39,16 @@
 			"wis": 10,
 			"cha": 10,
 			"save": {
-				"strength": "+4"
+				"str": "+4"
 			},
 			"skill": {
 				"athletics": "+4",
 				"nature": "+0"
 			},
-			"vulnerable": [
-				"fire",
-				"flying",
-				"ice",
-				"psychic"
-			],
-			"resist": [
-				"water",
-				"grass",
-				"electric",
-				"fairy",
-				"fighting"
-			],
 			"cr": "1/2",
 			"trait": [
 				{
-					"name": "Chlorophyll",
+					"name": "Ability: Chlorophyll",
 					"entries": [
 						"Damage rolls for this Pokémon get an additional +2 during strong sunlight."
 					]
@@ -84,8 +71,8 @@
 				{
 					"name": "Tackle (1 action)",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit. *Hit:* {@dice 1d6 + 2} Normal-type damage. Make a melee attack roll against a Pokémon, doing 1d6 + Strength on a hit.",
-						"Higher Levels: The base damage increases to {@dice 1d8} at level 5, {@dice 1d10} at level 10, and {@dice 1d12} at level 17."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 2}) Normal-type damage. Make a melee attack roll against a Pokémon, doing 1d6 + Strength on a hit.",
+						"Higher Levels: The base damage increases to 1d8 at level 5, 1d10 at level 10, and 1d12 at level 17."
 					]
 				},
 				{
