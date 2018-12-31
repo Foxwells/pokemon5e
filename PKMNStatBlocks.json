@@ -23,6 +23,7 @@
 	"name": "Bulbasaur",
 	"size": "S",
 	"type": "grass-/poison-type",
+	"alignment": "level 1",
 	"ac": [
 		{
 			"ac": 13,
@@ -104,5 +105,7 @@
 				"You target a Pokémon within 100 feet with an intimidating growl. The Pokémon must make a Wisdom save against your Strength or Charisma Move DC (your choice). On a failure, it adds -1 to any damage roll it makes for 1 minute. This modifier can be stacked if it fails multiple Growl saves, up to a maximum of -5."
 			]
 		}
+	]
+}
 	]
 }
