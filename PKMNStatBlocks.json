@@ -18,94 +18,86 @@
   
   
 	"monster": [
-{
-	"source": "pkmn5e",
-	"name": "Bulbasaur",
-	"size": "S",
-	"type": "grass-/poison-type",
-	"alignment": "level 1",
-	"ac": [
 		{
-			"ac": 13,
-			"from": [
-				"natural armor"
-			]
+			"source": "pkmn5e",
+			"name": "Bulbasaur",
+			"size": "S",
+			"type": "Grass-/Poison-type",
+			"alignment": "Level 1",
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 6,
+				"formula": "1d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 11,
+			"int": 6,
+			"wis": 10,
+			"cha": 10,
+			"save": {
+				"strength": "+4"
+			},
+			"skill": {
+				"athletics": "+4",
+				"nature": "+0"
+			},
+			"vulnerable": [
+				"fire",
+				"flying",
+				"ice",
+				"psychic"
+			],
+			"resist": [
+				"water",
+				"grass",
+				"electric",
+				"fairy",
+				"fighting"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Chlorophyll",
+					"entries": [
+						"Damage rolls for this Pokémon get an additional +2 during strong sunlight."
+					]
+				},
+				{
+					"name": "Evolution",
+					"entries": [
+						"Bulbasaur can evolve into Ivysaur at level 8 and above."
+					]
+				},
+				{
+					"name": "Learnable Moves",
+					"entries": [
+						"TM: 02, 03, 06, 10, 11, 12, 13, 17, 19, 20, 21, 22, 27, 31, 32, 34, 35, 40, 44, 45, 49",
+						"HM: 01, 05"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Tackle (1 action)",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit. *Hit:* {@dice 1d6 + 2} Normal-type damage. Make a melee attack roll against a Pokémon, doing 1d6 + Strength on a hit.",
+						"Higher Levels: The base damage increases to {@dice 1d8} at level 5, {@dice 1d10} at level 10, and {@dice 1d12} at level 17."
+					]
+				},
+				{
+					"name": "Growl (1 action)",
+					"entries": [
+						"You target a Pokémon within 100 feet with an intimidating growl. The Pokémon must make a Wisdom save against your Strength or Charisma Move DC (your choice). On a failure, it adds -1 to any damage roll it makes for 1 minute. This modifier can be stacked if it fails multiple Growl saves, up to a maximum of -5."
+					]
+				}
+			],
+			"tokenURL": "https://raw.githubusercontent.com/Foxwells/pokemon5e/master/tokens/001Bulbasaur.png"
 		}
-	],
-	"hp": {
-		"average": 6,
-		"formula": "1d6"
-	},
-	"speed": {
-		"walk": {
-			"number": 30,
-			"condition": "walking"
-		}
-	},
-	"str": 14,
-	"dex": 12,
-	"con": 11,
-	"int": 6,
-	"wis": 10,
-	"cha": 10,
-	"save": {
-		"strength": "+4"
-	},
-	"skill": {
-		"athletics": "+4",
-		"nature": "+0"
-	},
-	"vulnerable": [
-		"fire",
-		"flying",
-		"ice",
-		"psychic"
-	],
-	"resist": [
-		"water",
-		"grass",
-		"electric",
-		"fairy",
-		"fighting"
-	],
-	"cr": "1/2",
-	"trait": [
-		{
-			"name": "Chlorophyll",
-			"entries": [
-				"Damage rolls for this Pokémon get an additional +2 during strong sunlight."
-			]
-		},
-		{
-			"name": "Evolution",
-			"entries": [
-				"Bulbasaur can evolve into Ivysaur at level 8 and above."
-			]
-		},
-		{
-			"name": "Learnable Moves",
-			"entries": [
-				"TM: 02, 03, 06, 10, 11, 12, 13, 17, 19, 20, 21, 22, 27, 31, 32, 34, 35, 40, 44, 45, 49",
-				"HM: 01, 05"
-			]
-		}
-	],
-	"action": [
-		{
-			"name": "Tackle (1 action)",
-			"entries": [
-				"{@atk mw} {@hit 4} to hit. *Hit:* {@dice 1d6 + 2}.",
-				"Make a melee attack roll against a Pokémon, doing {@dice 1d6} + Strength on a hit.",
-				"Higher Levels: The base damage increases to {@dice 1d8} at level 5, {@dice 1d10} at level 10, and {@dice 1d12} at level 17."
-			]
-		},
-		{
-			"name": "Growl (1 action)",
-			"entries": [
-				"You target a Pokémon within 100 feet with an intimidating growl. The Pokémon must make a Wisdom save against your Strength or Charisma Move DC (your choice). On a failure, it adds -1 to any damage roll it makes for 1 minute. This modifier can be stacked if it fails multiple Growl saves, up to a maximum of -5."
-			]
-		}
-	]
-}
 	]
 }
