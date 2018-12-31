@@ -4,7 +4,6 @@
 			"name": "Bulbasaur",
 			"size": "S",
 			"type": "Grass-/Poison-type",
-			"alignment": "Level 1",
 			"ac": [
 				13
 			],
@@ -22,7 +21,7 @@
 			"wis": 10,
 			"cha": 10,
 			"save": {
-				"str": "+4"
+				"strength": "+4"
 			},
 			"skill": {
 				"athletics": "+4",
