@@ -46,19 +46,6 @@
 				"athletics": "+4",
 				"nature": "+2"
 			},
-			"vulnerable": [
-				"fire",
-				"flying",
-				"ice",
-				"psychic"
-			],
-			"resist": [
-				"water",
-				"grass",
-				"electric",
-				"fairy",
-				"fighting"
-			],
 			"cr": "1/2",
 			"trait": [
 				{
