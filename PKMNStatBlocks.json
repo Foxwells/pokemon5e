@@ -23,7 +23,6 @@
 	"name": "Bulbasaur",
 	"size": "S",
 	"type": "grass-/poison-type",
-	"alignment": "level 1",
 	"ac": [
 		{
 			"ac": 13,
@@ -43,11 +42,11 @@
 		}
 	},
 	"str": 14,
-	"dex": 0,
-	"con": 0,
-	"int": 0,
-	"wis": 0,
-	"cha": 0,
+	"dex": 12,
+	"con": 11,
+	"int": 6,
+	"wis": 10,
+	"cha": 10,
 	"save": {
 		"strength": "+4"
 	},
