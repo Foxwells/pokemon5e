@@ -21,12 +21,15 @@
 			"source": "pkmn5e",
 			"name": "Bulbasaur",
 			"size": "S",
-			"type": "Grass-/Poison-type",
+			"type": "Grass-/Poison-type, Level 1",
+			"alignment": [
+				"U"
+			],
 			"ac": [
 				13
 			],
 			"hp": {
-				"average": "6",
+				"average": 6,
 				"formula": "1d6"
 			},
 			"speed": {
